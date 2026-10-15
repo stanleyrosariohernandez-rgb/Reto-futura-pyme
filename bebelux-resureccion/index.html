@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bebelux 2.0</title>
+    <link rel="stylesheet" href="estilos.css"
+</head>
+
+<body>
+
+    <!-- Pantalla inicial de error -->
+    <div class="boot-screen" id="boot-screen">
+        <p class="error-code">ERROR 404 // SISTEMA INTERRUMPIDO</p>
+
+        <h1 class="glitch" data-text="BEBELUX 2.0">
+            BEBELUX 2.0
+        </h1>
+
+        <p class="boot-message">
+            Nuestra presencia digital ha desaparecido.
+        </p>
+
+        <p class="boot-warning">
+            Intentando restablecer la conexión...
+        </p>
+
+        <button id="recover-button" class="button-glitch" type="button">
+            RECUPERAR SISTEMA
+        </button>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <div id="site-content">
+        <header>
+            <h1 class="glitch" data-text="BEBELUX 2.0">
+                BEBELUX 2.0
+            </h1>
+
+            <p>Nos borraron de Internet. No de tu comunidad.</p>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="historia.html">Historia</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-panel">
+                <p class="status-line">ESTADO: CONEXIÓN RESTABLECIDA</p>
+
+                <h2>Hemos regresado</h2>
+
+                <p>
+                    Nuestra presencia digital desapareció,
+                    pero nuestra comunidad nunca dejó de existir.
+                </p>
+
+                <p>
+                    Reconstruimos nuestro espacio digital para
+                    ofrecer una experiencia renovada.
+                </p>
+            </section>
+
+            <section>
+                <h2>Una nueva etapa comienza</h2>
+
+                <p>
+                    Más cerca de nuestros clientes, más accesibles
+                    y preparados para volver a conectar.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Bebelux 2.0 - 2026</p>
+        </footer>
+        
+<!-- Chatbot de Bebelux 2.0 -->
+<div class="chatbot">
+
+    <button
+        type="button"
+        id="chat-toggle"
+        class="chat-toggle"
+        aria-label="Abrir asistente virtual"
+        aria-expanded="false">
+        CHATBOT
+    </button>
+
+    <section
+        id="chat-panel"
+        class="chat-panel"
+        aria-label="Asistente virtual"
+        hidden>
+
+        <div class="chat-header">
+            <div>
+                <strong>BOT</strong>
+                <p>Asistente de recuperación</p>
+            </div>
+
+            <button
+                type="button"
+                id="chat-close"
+                class="chat-close"
+                aria-label="Cerrar chat">
+                X
+            </button>
+        </div>
+
+        <div
+            id="chat-messages"
+            class="chat-messages"
+            aria-live="polite"
+            aria-relevant="additions">
+
+            <p class="chat-message bot-message">
+                ¡Hola! Soy un CHATBOT. Puedo ayudarte a explorar
+                Bebelux 2.0. ¿Qué necesitas?
+            </p>
+        </div>
+
+        <form id="chat-form" class="chat-form">
+            <label for="chat-input">Escribe tu mensaje</label>
+
+            <input
+                type="text"
+                id="chat-input"
+                placeholder="Escribe aquí..."
+                autocomplete="off"
+                required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+</div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
